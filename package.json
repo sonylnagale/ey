@@ -4,7 +4,6 @@
   "description": "We'd like to give you a real-world exercise. Please provide us with the code solution you come up with. If you don't have a final working solution, please show whatever solution you did come up with, what roadblocks there were, etc. The journey can be as important as the destination!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js"
   },
   "repository": {

@@ -61,6 +61,12 @@ function combineChildren(baseNode, newNode) {
 
       if (newNode.children.length > 0) {
         baseNode.children.concat(newNode.children);
+        let newValue = 0;
+        for (let j = 0; j < baseNode.children.length; j++) {
+          newValue += baseNode.children[j].value;
+        }
+
+        baseNode.value = newValue;
       }
 
     }
